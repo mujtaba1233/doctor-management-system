@@ -1,0 +1,826 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" />
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+
+    <title>Book Doctor</title>
+</head>
+
+<body>
+    <header class="container-fluid p-0">
+        <nav class=" navbar  navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                    <a id='logo' class="navbar-brand" href="../Landng Page/landingPage.html"><img
+                            src="./images/Logo.png"></a>
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item px-0">
+                            <a class="nav-link " aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item px-0">
+                            <a class="nav-link" href="#">About us</a>
+                        </li>
+                        <li class="nav-item px-0">
+                            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">How it works</a>
+                        </li>
+                        <li class="nav-item px-0">
+                            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Our Services</a>
+                        </li>
+                        <li class="nav-item px-0">
+                            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Telehealth care-point kits
+                            </a>
+                        </li>
+                        <li class="nav-item px-0">
+                            <a class="nav-link" href="./bookDoctor.html" tabindex="-1" aria-disabled="true">Book DR
+                                now</a>
+                        </li>
+                    </ul>
+                    <button class="btn btn-success">Sign Up</button>
+                    <button class="btn btn-light">Sign Up</button>
+                </div>
+            </div>
+        </nav>
+        <div class='title align-self-start mx-5'>
+            <h2 class="text-white">Book Doctor now</h2>
+        </div>
+    </header>
+
+
+    <div class="sect-1 d-flex justify-content-center flex-column mt-5 ">
+        <div class=" container mt-5 p-4">
+            <h5 class="mt-5">With a mission of providing quality healthcare to indivisuals and developing nations in a
+                compassionate, real and accessible way, our leadership conceived lafiya </h5>
+            <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium eaque similique
+                praesentium iusto sit hic, debitis odit, excepturi quisquam quibusdam sunt asperiores quia sapiente
+                minima. Reprehenderit error eaque, adipisci ex atque cum
+                nemo? Quod, distinctio iste suscipit minima similique dolore!
+            </p>
+        </div>
+    </div>
+
+
+
+    <div class="list-doctors mt-5">
+        <div class="row mx-auto">
+            <div class="col-lg-3 col-md-12">
+                <div class="container">
+                    <form action="">
+                        <i class="fas fa-sliders-h"></i>
+                        <h5 class="mx-2 mt-2 d-inline">Filter</h5>
+                        <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Location">
+                        <datalist id="datalistOptions">
+                            <option value="San Francisco">
+                            <option value="New York">
+                            <option value="Seattle">
+                            <option value="Los Angeles">
+                            <option value="Chicago">
+                        </datalist>
+                        <input class="form-control" list="datalistOptions" id="exampleDataList"
+                            placeholder="Specialist">
+                        <datalist id="datalistOptions">
+                            <option value="San Francisco">
+                            <option value="New York">
+                            <option value="Seattle">
+                            <option value="Los Angeles">
+                            <option value="Chicago">
+                        </datalist>
+                        <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Date">
+                        <datalist id="datalistOptions">
+                            <option value="San Francisco">
+                            <option value="New York">
+                            <option value="Seattle">
+                            <option value="Los Angeles">
+                            <option value="Chicago">
+                        </datalist>
+                        <h6 class="mb-0 mt-2">Gender</h6>
+                        <label for="">Male</label>
+                        <input type="radio">
+                        <label for="">Female</label>
+                        <input type="radio">
+
+                        <h6 class="mb-0 mt-2">
+                            Availiability
+                        </h6>
+                        <input class="mt-0" type="checkbox">
+                        <label for="">Online Consultation</label><br>
+                        <input class="mt-0" type="checkbox">
+                        <label for="">Offline Consultation</label><br>
+                        <input class="mt-0" type="checkbox">
+                        <label for="">On Call</label><br>
+
+                        <h6 class="mb-0 mt-2">
+                            Primary Expertise
+                        </h6>
+                        <input class="mt-0" type="checkbox">
+                        <label for=""> Aerospace Medicine</label><br>
+                        <input class="mt-0" type="checkbox">
+                        <label for="">ADHD and autism</label><br>
+                        <input class="mt-0" type="checkbox">
+                        <label for=""> Infectious Disease</label><br>
+                        <input class="mt-0" type="checkbox">
+                        <label for="">Preventive Medicine</label><br>
+                        <input class="mt-0" type="checkbox">
+                        <label for="">Family Medicine</label><br>
+                        <input class="mt-0" type="checkbox">
+                        <label for="">Healthcare Professionals</label><br>
+
+                        <h6 class="mb-0 mt-2">
+                            Secondary Expertise
+                        </h6>
+                        <input class="mt-0" type="checkbox">
+                        <label for=""> Aerospace Medicine</label><br>
+                        <input class="mt-0" type="checkbox">
+                        <label for=""> Infectious Disease</label><br>
+                        <input class="mt-0" type="checkbox">
+                        <label for="">Family Medicine</label><br>
+                        <input class="mt-0" type="checkbox">
+                        <label for="">Healthcare Professionals</label><br>
+                        <h6 class="mb-0 mt-2">
+                            Rating
+                        </h6>
+                        <div class="rating">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <h6 class="mb-0 mt-2">
+                            Fees
+                        </h6>
+                        <div class="price-slider mt-0">
+                            <input value="25000" min="0" max="120000" step="500" type="range" />
+                            <input value="50000" min="0" max="120000" step="500" type="range" />
+                            <svg width="100%" height="24">
+                                <line x1="4" y1="0" x2="300" y2="0" stroke="#212121" stroke-width="12"
+                                    stroke-dasharray="1 28"></line>
+                            </svg>
+                        </div>
+                        <span>from
+                            <input type="number" value="5000" min="0" max="120000" /> to
+                            <input type="number" value="50000" min="0" max="120000" /></span>
+                    </form>
+                </div>
+            </div>
+            <div class="col-lg-9 col-md-12 col-sm-12">
+                <div class=" row ">
+                    <div
+                        class="col-lg-4 col-md-6 col-sm-12 mt-4 mx-0 d-flex justify-content-center align-items-center ">
+                        <div class="card d-flex justify-content-center align-items-center mx-1" style="width: 18rem;">
+                            <div class="image d-flex justify-content-center align-items-center">
+                                <i class=" align-self-end fas fa-share-alt-square"></i>
+                                <img class='image-fluid rounded-circle my-4' src="./images/cardImage.jpg" height="100px"
+                                    width='100px' class="card-img-top" alt="...">
+                                <div class="icon-list align-self-start mb-0 mt-2">
+                                    <a href=""> <i class="fab fa-twitter"></i> </a>
+                                    <a href=""> <i class="fab fa-facebook-square"></i></a>
+                                    <a href=""> <i class="fab fa-invision"></i></a>
+                                </div>
+                            </div>
+                            <div class="card-body mb-0 text-center">
+                                <h5 class="card-title mb-0 2">Jennifer Smith</h5>
+                                <p class="card-text mb-0">United States</p>
+                            </div>
+                            <div class="card-description px-3 mb-0  ">
+                                <p class="mb-0 "><b>Telecommunication Appointment:</b> 15 minutes </p>
+                                <p class="mb-0 "><b>Language:</b> English </p>
+                                <p class="mb-0 "><b>Gender:</b> Gender </p>
+                                <p class="text-center mb-0 mt-2 pb-2"> <b> Consultation Fee $15 </b></p>
+                                <a style="font-size: small; border-radius: 50px;" class="btn btn-light" href="">ADHD and
+                                    autism</a>
+                                <a style="font-size: small; border-radius: 50px;" class="btn btn-light" href="">Family
+                                    medicine</a>
+
+                                <div class="icon-list text-center mb-0 mt-3">
+                                    <i class="fas fa-comment-dots"></i>
+                                    <i class="fas fa-phone-volume"></i>
+                                    <i class="fas fa-video"></i>
+                                </div>
+                                <div class="footer-btn mt-3 pb-2 text-center">
+                                    <button id='ft-btn' class="btn btn-primary  mx-2">Book now</button>
+                                    <button id='ft-btn' class="btn btn-primary mx-2"> <a
+                                            style="text-decoration: none; color: white;"
+                                            href="../Doctor Details/doctorDetails.html">View Details</a></button>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 mt-4 mx-0 d-flex justify-content-center align-items-center">
+                        <div class="card d-flex justify-content-center align-items-center mx-1" style="width: 18rem;">
+                            <div class="image d-flex justify-content-center align-items-center">
+                                <i class=" align-self-end fas fa-share-alt-square"></i>
+                                <img class='image-fluid rounded-circle my-4' src="./images/cardImage.jpg" height="100px"
+                                    width='100px' class="card-img-top" alt="...">
+                                <div class="icon-list align-self-start mb-0 mt-2">
+                                    <a href=""> <i class="fab fa-twitter"></i> </a>
+                                    <a href=""> <i class="fab fa-facebook-square"></i></a>
+                                    <a href=""> <i class="fab fa-invision"></i></a>
+                                </div>
+                            </div>
+                            <div class="card-body mb-0 text-center">
+                                <h5 class="card-title mb-0 2">Jennifer Smith</h5>
+                                <p class="card-text mb-0">United States</p>
+                            </div>
+                            <div class="card-description px-3 mb-0  ">
+                                <p class="mb-0 "><b>Telecommunication Appointment:</b> 15 minutes </p>
+                                <p class="mb-0 "><b>Language:</b> English </p>
+                                <p class="mb-0 "><b>Gender:</b> Gender </p>
+                                <p class="text-center mb-0 mt-2 pb-2"> <b> Consultation Fee $15 </b></p>
+                                <a style="font-size: small; border-radius: 50px;" class="btn btn-light" href="">ADHD and
+                                    autism</a>
+                                <a style="font-size: small; border-radius: 50px;" class="btn btn-light" href="">Family
+                                    medicine</a>
+
+                                <div class="icon-list text-center mb-0 mt-3">
+                                    <i class="fas fa-comment-dots"></i>
+                                    <i class="fas fa-phone-volume"></i>
+                                    <i class="fas fa-video"></i>
+                                </div>
+                                <div class="footer-btn mt-3 pb-2 text-center">
+                                    <button id='ft-btn' class="btn btn-primary  mx-2">Book now</button>
+                                    <button id='ft-btn' class="btn btn-primary mx-2"> <a
+                                            style="text-decoration: none; color: white;"
+                                            href="../Doctor Details/doctorDetails.html">View Details</a></button>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 mt-4 mx-0 d-flex justify-content-center align-items-center">
+                        <div class="card d-flex justify-content-center align-items-center mx-1" style="width: 18rem;">
+                            <div class="image d-flex justify-content-center align-items-center">
+                                <i class=" align-self-end fas fa-share-alt-square"></i>
+                                <img class='image-fluid rounded-circle my-4' src="./images/cardImage.jpg" height="100px"
+                                    width='100px' class="card-img-top" alt="...">
+                                <div class="icon-list align-self-start mb-0 mt-2">
+                                    <a href=""> <i class="fab fa-twitter"></i> </a>
+                                    <a href=""> <i class="fab fa-facebook-square"></i></a>
+                                    <a href=""> <i class="fab fa-invision"></i></a>
+                                </div>
+                            </div>
+                            <div class="card-body mb-0 text-center">
+                                <h5 class="card-title mb-0 2">Jennifer Smith</h5>
+                                <p class="card-text mb-0">United States</p>
+                            </div>
+                            <div class="card-description px-3 mb-0  ">
+                                <p class="mb-0 "><b>Telecommunication Appointment:</b> 15 minutes </p>
+                                <p class="mb-0 "><b>Language:</b> English </p>
+                                <p class="mb-0 "><b>Gender:</b> Gender </p>
+                                <p class="text-center mb-0 mt-2 pb-2"> <b> Consultation Fee $15 </b></p>
+                                <a style="font-size: small; border-radius: 50px;" class="btn btn-light" href="">ADHD and
+                                    autism</a>
+                                <a style="font-size: small; border-radius: 50px;" class="btn btn-light" href="">Family
+                                    medicine</a>
+
+                                <div class="icon-list text-center mb-0 mt-3">
+                                    <i class="fas fa-comment-dots"></i>
+                                    <i class="fas fa-phone-volume"></i>
+                                    <i class="fas fa-video"></i>
+                                </div>
+                                <div class="footer-btn mt-3 pb-2 text-center">
+                                    <button id='ft-btn' class="btn btn-primary  mx-2">Book now</button>
+                                    <button id='ft-btn' class="btn btn-primary mx-2"> <a
+                                            style="text-decoration: none; color: white;"
+                                            href="../Doctor Details/doctorDetails.html">View Details</a></button>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 mt-4 mx-0 d-flex justify-content-center align-items-center">
+                        <div class="card d-flex justify-content-center align-items-center mx-1" style="width: 18rem;">
+                            <div class="image d-flex justify-content-center align-items-center">
+                                <i class=" align-self-end fas fa-share-alt-square"></i>
+                                <img class='image-fluid rounded-circle my-4' src="./images/cardImage.jpg" height="100px"
+                                    width='100px' class="card-img-top" alt="...">
+                                <div class="icon-list align-self-start mb-0 mt-2">
+                                    <a href=""> <i class="fab fa-twitter"></i> </a>
+                                    <a href=""> <i class="fab fa-facebook-square"></i></a>
+                                    <a href=""> <i class="fab fa-invision"></i></a>
+                                </div>
+                            </div>
+                            <div class="card-body mb-0 text-center">
+                                <h5 class="card-title mb-0 2">Jennifer Smith</h5>
+                                <p class="card-text mb-0">United States</p>
+                            </div>
+                            <div class="card-description px-3 mb-0  ">
+                                <p class="mb-0 "><b>Telecommunication Appointment:</b> 15 minutes </p>
+                                <p class="mb-0 "><b>Language:</b> English </p>
+                                <p class="mb-0 "><b>Gender:</b> Gender </p>
+                                <p class="text-center mb-0 mt-2 pb-2"> <b> Consultation Fee $15 </b></p>
+                                <a style="font-size: small; border-radius: 50px;" class="btn btn-light" href="">ADHD and
+                                    autism</a>
+                                <a style="font-size: small; border-radius: 50px;" class="btn btn-light" href="">Family
+                                    medicine</a>
+
+                                <div class="icon-list text-center mb-0 mt-3">
+                                    <i class="fas fa-comment-dots"></i>
+                                    <i class="fas fa-phone-volume"></i>
+                                    <i class="fas fa-video"></i>
+                                </div>
+                                <div class="footer-btn mt-3 pb-2 text-center">
+                                    <button id='ft-btn' class="btn btn-primary  mx-2">Book now</button>
+                                    <button id='ft-btn' class="btn btn-primary mx-2"> <a
+                                            style="text-decoration: none; color: white;"
+                                            href="../Doctor Details/doctorDetails.html">View Details</a></button>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 mt-4 mx-0 d-flex justify-content-center align-items-center">
+                        <div class="card d-flex justify-content-center align-items-center mx-1" style="width: 18rem;">
+                            <div class="image d-flex justify-content-center align-items-center">
+                                <i class=" align-self-end fas fa-share-alt-square"></i>
+                                <img class='image-fluid rounded-circle my-4' src="./images/cardImage.jpg" height="100px"
+                                    width='100px' class="card-img-top" alt="...">
+                                <div class="icon-list align-self-start mb-0 mt-2">
+                                    <a href=""> <i class="fab fa-twitter"></i> </a>
+                                    <a href=""> <i class="fab fa-facebook-square"></i></a>
+                                    <a href=""> <i class="fab fa-invision"></i></a>
+                                </div>
+                            </div>
+                            <div class="card-body mb-0 text-center">
+                                <h5 class="card-title mb-0 2">Jennifer Smith</h5>
+                                <p class="card-text mb-0">United States</p>
+                            </div>
+                            <div class="card-description px-3 mb-0  ">
+                                <p class="mb-0 "><b>Telecommunication Appointment:</b> 15 minutes </p>
+                                <p class="mb-0 "><b>Language:</b> English </p>
+                                <p class="mb-0 "><b>Gender:</b> Gender </p>
+                                <p class="text-center mb-0 mt-2 pb-2"> <b> Consultation Fee $15 </b></p>
+                                <a style="font-size: small; border-radius: 50px;" class="btn btn-light" href="">ADHD and
+                                    autism</a>
+                                <a style="font-size: small; border-radius: 50px;" class="btn btn-light" href="">Family
+                                    medicine</a>
+
+                                <div class="icon-list text-center mb-0 mt-3">
+                                    <i class="fas fa-comment-dots"></i>
+                                    <i class="fas fa-phone-volume"></i>
+                                    <i class="fas fa-video"></i>
+                                </div>
+                                <div class="footer-btn mt-3 pb-2 text-center">
+                                    <button id='ft-btn' class="btn btn-primary  mx-2">Book now</button>
+                                    <button id='ft-btn' class="btn btn-primary mx-2"> <a
+                                            style="text-decoration: none; color: white;"
+                                            href="../Doctor Details/doctorDetails.html">View Details</a></button>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 mt-4 mx-0 d-flex justify-content-center align-items-center">
+                        <div class="card d-flex justify-content-center align-items-center mx-1" style="width: 18rem;">
+                            <div class="image d-flex justify-content-center align-items-center">
+                                <i class=" align-self-end fas fa-share-alt-square"></i>
+                                <img class='image-fluid rounded-circle my-4' src="./images/cardImage.jpg" height="100px"
+                                    width='100px' class="card-img-top" alt="...">
+                                <div class="icon-list align-self-start mb-0 mt-2">
+                                    <a href=""> <i class="fab fa-twitter"></i> </a>
+                                    <a href=""> <i class="fab fa-facebook-square"></i></a>
+                                    <a href=""> <i class="fab fa-invision"></i></a>
+                                </div>
+                            </div>
+                            <div class="card-body mb-0 text-center">
+                                <h5 class="card-title mb-0 2">Jennifer Smith</h5>
+                                <p class="card-text mb-0">United States</p>
+                            </div>
+                            <div class="card-description px-3 mb-0  ">
+                                <p class="mb-0 "><b>Telecommunication Appointment:</b> 15 minutes </p>
+                                <p class="mb-0 "><b>Language:</b> English </p>
+                                <p class="mb-0 "><b>Gender:</b> Gender </p>
+                                <p class="text-center mb-0 mt-2 pb-2"> <b> Consultation Fee $15 </b></p>
+                                <a style="font-size: small; border-radius: 50px;" class="btn btn-light" href="">ADHD and
+                                    autism</a>
+                                <a style="font-size: small; border-radius: 50px;" class="btn btn-light" href="">Family
+                                    medicine</a>
+
+                                <div class="icon-list text-center mb-0 mt-3">
+                                    <i class="fas fa-comment-dots"></i>
+                                    <i class="fas fa-phone-volume"></i>
+                                    <i class="fas fa-video"></i>
+                                </div>
+                                <div class="footer-btn mt-3 pb-2 text-center">
+                                    <button id='ft-btn' class="btn btn-primary  mx-2">Book now</button>
+                                    <button id='ft-btn' class="btn btn-primary mx-2"> <a
+                                            style="text-decoration: none; color: white;"
+                                            href="../Doctor Details/doctorDetails.html">View Details</a></button>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 mt-4 mx-0 d-flex justify-content-center align-items-center">
+                        <div class="card d-flex justify-content-center align-items-center mx-1" style="width: 18rem;">
+                            <div class="image d-flex justify-content-center align-items-center">
+                                <i class=" align-self-end fas fa-share-alt-square"></i>
+                                <img class='image-fluid rounded-circle my-4' src="./images/cardImage.jpg" height="100px"
+                                    width='100px' class="card-img-top" alt="...">
+                                <div class="icon-list align-self-start mb-0 mt-2">
+                                    <a href=""> <i class="fab fa-twitter"></i> </a>
+                                    <a href=""> <i class="fab fa-facebook-square"></i></a>
+                                    <a href=""> <i class="fab fa-invision"></i></a>
+                                </div>
+                            </div>
+                            <div class="card-body mb-0 text-center">
+                                <h5 class="card-title mb-0 2">Jennifer Smith</h5>
+                                <p class="card-text mb-0">United States</p>
+                            </div>
+                            <div class="card-description px-3 mb-0  ">
+                                <p class="mb-0 "><b>Telecommunication Appointment:</b> 15 minutes </p>
+                                <p class="mb-0 "><b>Language:</b> English </p>
+                                <p class="mb-0 "><b>Gender:</b> Gender </p>
+                                <p class="text-center mb-0 mt-2 pb-2"> <b> Consultation Fee $15 </b></p>
+                                <a style="font-size: small; border-radius: 50px;" class="btn btn-light" href="">ADHD and
+                                    autism</a>
+                                <a style="font-size: small; border-radius: 50px;" class="btn btn-light" href="">Family
+                                    medicine</a>
+
+                                <div class="icon-list text-center mb-0 mt-3">
+                                    <i class="fas fa-comment-dots"></i>
+                                    <i class="fas fa-phone-volume"></i>
+                                    <i class="fas fa-video"></i>
+                                </div>
+                                <div class="footer-btn mt-3 pb-2 text-center">
+                                    <button id='ft-btn' class="btn btn-primary  mx-2">Book now</button>
+                                    <button id='ft-btn' class="btn btn-primary mx-2"> <a
+                                            style="text-decoration: none; color: white;"
+                                            href="../Doctor Details/doctorDetails.html">View Details</a></button>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 mt-4 mx-0 d-flex justify-content-center align-items-center">
+                        <div class="card d-flex justify-content-center align-items-center mx-1" style="width: 18rem;">
+                            <div class="image d-flex justify-content-center align-items-center">
+                                <i class=" align-self-end fas fa-share-alt-square"></i>
+                                <img class='image-fluid rounded-circle my-4' src="./images/cardImage.jpg" height="100px"
+                                    width='100px' class="card-img-top" alt="...">
+                                <div class="icon-list align-self-start mb-0 mt-2">
+                                    <a href=""> <i class="fab fa-twitter"></i> </a>
+                                    <a href=""> <i class="fab fa-facebook-square"></i></a>
+                                    <a href=""> <i class="fab fa-invision"></i></a>
+                                </div>
+                            </div>
+                            <div class="card-body mb-0 text-center">
+                                <h5 class="card-title mb-0 2">Jennifer Smith</h5>
+                                <p class="card-text mb-0">United States</p>
+                            </div>
+                            <div class="card-description px-3 mb-0  ">
+                                <p class="mb-0 "><b>Telecommunication Appointment:</b> 15 minutes </p>
+                                <p class="mb-0 "><b>Language:</b> English </p>
+                                <p class="mb-0 "><b>Gender:</b> Gender </p>
+                                <p class="text-center mb-0 mt-2 pb-2"> <b> Consultation Fee $15 </b></p>
+                                <a style="font-size: small; border-radius: 50px;" class="btn btn-light" href="">ADHD and
+                                    autism</a>
+                                <a style="font-size: small; border-radius: 50px;" class="btn btn-light" href="">Family
+                                    medicine</a>
+
+                                <div class="icon-list text-center mb-0 mt-3">
+                                    <i class="fas fa-comment-dots"></i>
+                                    <i class="fas fa-phone-volume"></i>
+                                    <i class="fas fa-video"></i>
+                                </div>
+                                <div class="footer-btn mt-3 pb-2 text-center">
+                                    <button id='ft-btn' class="btn btn-primary  mx-2">Book now</button>
+                                    <button id='ft-btn' class="btn btn-primary mx-2"> <a
+                                            style="text-decoration: none; color: white;"
+                                            href="../Doctor Details/doctorDetails.html">View Details</a></button>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 mt-4 mx-0 d-flex justify-content-center align-items-center">
+                        <div class="card d-flex justify-content-center align-items-center mx-1" style="width: 18rem;">
+                            <div class="image d-flex justify-content-center align-items-center">
+                                <i class=" align-self-end fas fa-share-alt-square"></i>
+                                <img class='image-fluid rounded-circle my-4' src="./images/cardImage.jpg" height="100px"
+                                    width='100px' class="card-img-top" alt="...">
+                                <div class="icon-list align-self-start mb-0 mt-2">
+                                    <a href=""> <i class="fab fa-twitter"></i> </a>
+                                    <a href=""> <i class="fab fa-facebook-square"></i></a>
+                                    <a href=""> <i class="fab fa-invision"></i></a>
+                                </div>
+                            </div>
+                            <div class="card-body mb-0 text-center">
+                                <h5 class="card-title mb-0 2">Jennifer Smith</h5>
+                                <p class="card-text mb-0">United States</p>
+                            </div>
+                            <div class="card-description px-3 mb-0  ">
+                                <p class="mb-0 "><b>Telecommunication Appointment:</b> 15 minutes </p>
+                                <p class="mb-0 "><b>Language:</b> English </p>
+                                <p class="mb-0 "><b>Gender:</b> Gender </p>
+                                <p class="text-center mb-0 mt-2 pb-2"> <b> Consultation Fee $15 </b></p>
+                                <a style="font-size: small; border-radius: 50px;" class="btn btn-light" href="">ADHD and
+                                    autism</a>
+                                <a style="font-size: small; border-radius: 50px;" class="btn btn-light" href="">Family
+                                    medicine</a>
+
+                                <div class="icon-list text-center mb-0 mt-3">
+                                    <i class="fas fa-comment-dots"></i>
+                                    <i class="fas fa-phone-volume"></i>
+                                    <i class="fas fa-video"></i>
+                                </div>
+                                <div class="footer-btn mt-3 pb-2 text-center">
+                                    <button id='ft-btn' class="btn btn-primary  mx-2">Book now</button>
+                                    <button id='ft-btn' class="btn btn-primary mx-2"> <a
+                                            style="text-decoration: none; color: white;"
+                                            href="../Doctor Details/doctorDetails.html">View Details</a></button>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 mt-4 mx-0 d-flex justify-content-center align-items-center">
+                        <div class="card d-flex justify-content-center align-items-center mx-1" style="width: 18rem;">
+                            <div class="image d-flex justify-content-center align-items-center">
+                                <i class=" align-self-end fas fa-share-alt-square"></i>
+                                <img class='image-fluid rounded-circle my-4' src="./images/cardImage.jpg" height="100px"
+                                    width='100px' class="card-img-top" alt="...">
+                                <div class="icon-list align-self-start mb-0 mt-2">
+                                    <a href=""> <i class="fab fa-twitter"></i> </a>
+                                    <a href=""> <i class="fab fa-facebook-square"></i></a>
+                                    <a href=""> <i class="fab fa-invision"></i></a>
+                                </div>
+                            </div>
+                            <div class="card-body mb-0 text-center">
+                                <h5 class="card-title mb-0 2">Jennifer Smith</h5>
+                                <p class="card-text mb-0">United States</p>
+                            </div>
+                            <div class="card-description px-3 mb-0  ">
+                                <p class="mb-0 "><b>Telecommunication Appointment:</b> 15 minutes </p>
+                                <p class="mb-0 "><b>Language:</b> English </p>
+                                <p class="mb-0 "><b>Gender:</b> Gender </p>
+                                <p class="text-center mb-0 mt-2 pb-2"> <b> Consultation Fee $15 </b></p>
+                                <a style="font-size: small; border-radius: 50px;" class="btn btn-light" href="">ADHD and
+                                    autism</a>
+                                <a style="font-size: small; border-radius: 50px;" class="btn btn-light" href="">Family
+                                    medicine</a>
+
+                                <div class="icon-list text-center mb-0 mt-3">
+                                    <i class="fas fa-comment-dots"></i>
+                                    <i class="fas fa-phone-volume"></i>
+                                    <i class="fas fa-video"></i>
+                                </div>
+                                <div class="footer-btn mt-3 pb-2 text-center">
+                                    <button id='ft-btn' class="btn btn-primary  mx-2">Book now</button>
+                                    <button id='ft-btn' class="btn btn-primary mx-2"> <a
+                                            style="text-decoration: none; color: white;"
+                                            href="../Doctor Details/doctorDetails.html">View Details</a></button>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 mt-4 mx-0 d-flex justify-content-center align-items-center">
+                        <div class="card d-flex justify-content-center align-items-center mx-1" style="width: 18rem;">
+                            <div class="image d-flex justify-content-center align-items-center">
+                                <i class=" align-self-end fas fa-share-alt-square"></i>
+                                <img class='image-fluid rounded-circle my-4' src="./images/cardImage.jpg" height="100px"
+                                    width='100px' class="card-img-top" alt="...">
+                                <div class="icon-list align-self-start mb-0 mt-2">
+                                    <a href=""> <i class="fab fa-twitter"></i> </a>
+                                    <a href=""> <i class="fab fa-facebook-square"></i></a>
+                                    <a href=""> <i class="fab fa-invision"></i></a>
+                                </div>
+                            </div>
+                            <div class="card-body mb-0 text-center">
+                                <h5 class="card-title mb-0 2">Jennifer Smith</h5>
+                                <p class="card-text mb-0">United States</p>
+                            </div>
+                            <div class="card-description px-3 mb-0  ">
+                                <p class="mb-0 "><b>Telecommunication Appointment:</b> 15 minutes </p>
+                                <p class="mb-0 "><b>Language:</b> English </p>
+                                <p class="mb-0 "><b>Gender:</b> Gender </p>
+                                <p class="text-center mb-0 mt-2 pb-2"> <b> Consultation Fee $15 </b></p>
+                                <a style="font-size: small; border-radius: 50px;" class="btn btn-light" href="">ADHD and
+                                    autism</a>
+                                <a style="font-size: small; border-radius: 50px;" class="btn btn-light" href="">Family
+                                    medicine</a>
+
+                                <div class="icon-list text-center mb-0 mt-3">
+                                    <i class="fas fa-comment-dots"></i>
+                                    <i class="fas fa-phone-volume"></i>
+                                    <i class="fas fa-video"></i>
+                                </div>
+                                <div class="footer-btn mt-3 pb-2 text-center">
+                                    <button id='ft-btn' class="btn btn-primary  mx-2">Book now</button>
+                                    <button id='ft-btn' class="btn btn-primary mx-2"> <a
+                                            style="text-decoration: none; color: white;"
+                                            href="../Doctor Details/doctorDetails.html">View Details</a></button>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 mt-4 mx-0 d-flex justify-content-center align-items-center">
+                        <div class="card d-flex justify-content-center align-items-center mx-1" style="width: 18rem;">
+                            <div class="image d-flex justify-content-center align-items-center">
+                                <i class=" align-self-end fas fa-share-alt-square"></i>
+                                <img class='image-fluid rounded-circle my-4' src="./images/cardImage.jpg" height="100px"
+                                    width='100px' class="card-img-top" alt="...">
+                                <div class="icon-list align-self-start mb-0 mt-2">
+                                    <a href=""> <i class="fab fa-twitter"></i> </a>
+                                    <a href=""> <i class="fab fa-facebook-square"></i></a>
+                                    <a href=""> <i class="fab fa-invision"></i></a>
+                                </div>
+                            </div>
+                            <div class="card-body mb-0 text-center">
+                                <h5 class="card-title mb-0 2">Jennifer Smith</h5>
+                                <p class="card-text mb-0">United States</p>
+                            </div>
+                            <div class="card-description px-3 mb-0  ">
+                                <p class="mb-0 "><b>Telecommunication Appointment:</b> 15 minutes </p>
+                                <p class="mb-0 "><b>Language:</b> English </p>
+                                <p class="mb-0 "><b>Gender:</b> Gender </p>
+                                <p class="text-center mb-0 mt-2 pb-2"> <b> Consultation Fee $15 </b></p>
+                                <a style="font-size: small; border-radius: 50px;" class="btn btn-light" href="">ADHD and
+                                    autism</a>
+                                <a style="font-size: small; border-radius: 50px;" class="btn btn-light" href="">Family
+                                    medicine</a>
+
+                                <div class="icon-list text-center mb-0 mt-3">
+                                    <i class="fas fa-comment-dots"></i>
+                                    <i class="fas fa-phone-volume"></i>
+                                    <i class="fas fa-video"></i>
+                                </div>
+                                <div class="footer-btn mt-3 pb-2 text-center">
+                                    <button id='ft-btn' class="btn btn-primary  mx-2">Book now</button>
+                                    <button id='ft-btn' class="btn btn-primary mx-2"> <a
+                                            style="text-decoration: none; color: white;"
+                                            href="../Doctor Details/doctorDetails.html">View Details</a></button>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-------------------------------Main-Footer------------------------------------------------->
+
+
+    <div class="row footer my-5">
+        <div
+            class="col-sm-12 col-md-6 col-lg-3 mt-3 text-center d-flex justify-content-center aliSgn-items-center flex-column">
+            <img src="./images/footer-logo.png" class="img-fluid  h-25 w-50 " alt="...">
+            <div class="card-body">
+                <p style="font-size: small;" class="card-text">Some quick example text to build on the card title and
+                    make up the bulk of the card's content Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Atque nemo velit iste ducimus natus deserunt accusamus at error architecto quaerat?
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, odit.
+                </p>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3 mt-3 d-flex justify-content-center align-items-center">
+            <div class="container desc">
+                <h4>Our Company</h4>
+                <ul>
+                    <li>
+                        <a href="">Helpline</a>
+                    </li>
+                    <li>
+                        <a href="">About</a>
+                    </li>
+                    <li>
+                        <a href="">Contact Us</a>
+                    </li>
+                    <li>
+                        <a href="">FAQ's</a>
+                    </li>
+                    <li>
+                        <a href="">Terms of use (Patients)</a>
+                    </li>
+                    <li>
+                        <a href="">Terms of Use (Health-Care Professionals)</a>
+                    </li>
+                    <li>
+                        <a href="">Privacy Policy</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3 mt-3 d-flex justify-content-center align-items-center">
+            <div class="container desc">
+                <h4>Our Solution</h4>
+                <ul>
+                    <li>
+                        <a href="">For Doctor</a>
+                    </li>
+                    <li>
+                        <a href="">For Indivisuals</a>
+                    </li>
+                    <li>
+                        <a href="">For Hospitals</a>
+                    </li>
+                    <li>
+                        <a href="">For Pharmacy</a>
+                    </li>
+                    <li>
+                        <a href="">For Medical Lab</a>
+                    </li>
+                    <li>
+                        <a href="">For HMO</a>
+                    </li>
+                    <li>
+                        <a href="">For Employers</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3 mt-3 d-flex justify-content-center align-items-center">
+            <div class="container">
+                <h5>GET the free app for patitents and doctors</h5>
+                <div class="ftr-btn d-flex flex-column">
+                    <a href=""><img class=" w-50 h-25 mx-4 my-2" src="./images/playstore.png" alt=""></a>
+                    <a href=""><img class=" w-50 h-25 mx-4 my-2" src="./images/appstore.png" alt=""> </a>
+                </div>
+                <div class="icon-list text-center mt-0">
+                    <a href=""> <i class="fab fa-twitter"></i> </a>
+                    <a href=""> <i class="fab fa-facebook-square"></i></a>
+                    <a href=""> <i class="fab fa-invision"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <script>
+        (function () {
+
+            var parent = document.querySelector(".price-slider");
+            if (!parent) return;
+
+            var
+                rangeS = parent.querySelectorAll("input[type=range]"),
+                numberS = parent.querySelectorAll("input[type=number]");
+
+            rangeS.forEach(function (el) {
+                el.oninput = function () {
+                    var slide1 = parseFloat(rangeS[0].value),
+                        slide2 = parseFloat(rangeS[1].value);
+
+                    if (slide1 > slide2) {
+                        [slide1, slide2] = [slide2, slide1];
+                    }
+
+                    numberS[0].value = slide1;
+                    numberS[1].value = slide2;
+                }
+            });
+
+            numberS.forEach(function (el) {
+                el.oninput = function () {
+                    var number1 = parseFloat(numberS[0].value),
+                        number2 = parseFloat(numberS[1].value);
+
+                    if (number1 > number2) {
+                        var tmp = number1;
+                        numberS[0].value = number2;
+                        numberS[1].value = tmp;
+                    }
+
+                    rangeS[0].value = number1;
+                    rangeS[1].value = number2;
+
+                }
+            });
+
+        })();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
+        integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js"
+        integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

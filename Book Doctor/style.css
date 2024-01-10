@@ -1,0 +1,269 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#logo img {
+    width: 100px;
+    display: inline;
+}
+
+header {
+    background-repeat: none;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0px auto;
+    height: 500px;
+    width: 100%;
+    background: url("./images/main-banner.jpg");
+}
+
+header .navbar {
+    background: linear-gradient(120deg, white 80%, transparent 20%);
+}
+
+.sect-1 {
+    background: linear-gradient(305deg, lightblue 70%, transparent 30%);
+}
+
+.sect-1 p,
+h5 {
+    text-align: center;
+}
+
+.card .image {
+    background-color: #bfc6f2;
+    width: 100%;
+    text-align: center;
+}
+
+.card .image .fa-share-alt-square {
+    display: block;
+    background-color: blue;
+    padding: 5px;
+    border-radius: 50px;
+    color: white;
+    transform: translateX(-50px);
+    margin-bottom: 5px;
+}
+
+.card .image .icon-list i {
+    display: block;
+    background-color: blue;
+    padding: 5px;
+    border-radius: 50px;
+    color: white;
+    transform: translateX(50px);
+    margin: 10px;
+}
+
+.card-description {
+    font-size: 13px;
+}
+
+.card .card-description .icon-list i {
+    background-color: blue;
+    font-size: medium;
+    padding: 5px;
+    color: white;
+    border-radius: 50px;
+    margin-left: 5px;
+    text-align: center;
+}
+
+.list-doctors .container form {
+    border: 1px solid lightblue;
+    padding: 0px 10px;
+    margin-top: 10px;
+}
+
+.card .card-description #ft-btn {
+    background-color: blue;
+}
+
+.list-doctors .container form input {
+    margin-top: 8px;
+}
+
+.list-doctors .container form label {
+    font-size: 14px;
+}
+
+.list-doctors .container form .rating i {
+    color: #fbc531;
+}
+
+
+/*
+Progresss Barr 
+ */
+
+input {
+    box-shadow: 0;
+    outline: 0;
+}
+
+.price-slider {
+    width: 200px;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    height: 6em;
+}
+
+.price-slider svg,
+.price-slider input[type="range"] {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+input[type="number"] {
+    border: 1px solid #ddd;
+    text-align: center;
+    font-size: 1.6em;
+    -moz-appearance: textfield;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+input[type="number"]:invalid,
+input[type="number"]:out-of-range {
+    border: 2px solid #e60023;
+}
+
+input[type="range"] {
+    -webkit-appearance: none;
+    width: 100%;
+}
+
+input[type="range"]:focus {
+    outline: none;
+}
+
+input[type="range"]:focus::-webkit-slider-runnable-track {
+    background: #1da1f2;
+}
+
+input[type="range"]:focus::-ms-fill-lower {
+    background: #1da1f2;
+}
+
+input[type="range"]:focus::-ms-fill-upper {
+    background: #1da1f2;
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 5px;
+    cursor: pointer;
+    animate: 0.2s;
+    background: #1da1f2;
+    border-radius: 1px;
+    box-shadow: none;
+    border: 0;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    z-index: 2;
+    position: relative;
+    box-shadow: 0px 0px 0px #000;
+    border: 1px solid #1da1f2;
+    height: 18px;
+    width: 18px;
+    border-radius: 25px;
+    background: #a1d0ff;
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: -7px;
+}
+
+input[type="range"]::-moz-range-track {
+    width: 100%;
+    height: 5px;
+    cursor: pointer;
+    animate: 0.2s;
+    background: #1da1f2;
+    border-radius: 1px;
+    box-shadow: none;
+    border: 0;
+}
+
+input[type="range"]::-moz-range-thumb {
+    z-index: 2;
+    position: relative;
+    box-shadow: 0px 0px 0px #000;
+    border: 1px solid #1da1f2;
+    height: 18px;
+    width: 18px;
+    border-radius: 25px;
+    background: #a1d0ff;
+    cursor: pointer;
+}
+
+input[type="range"]::-ms-track {
+    width: 100%;
+    height: 5px;
+    cursor: pointer;
+    animate: 0.2s;
+    background: transparent;
+    border-color: transparent;
+    color: transparent;
+}
+
+input[type="range"]::-ms-fill-lower,
+input[type="range"]::-ms-fill-upper {
+    background: #1da1f2;
+    border-radius: 1px;
+    box-shadow: none;
+    border: 0;
+}
+
+input[type="range"]::-ms-thumb {
+    z-index: 2;
+    position: relative;
+    box-shadow: 0px 0px 0px #000;
+    border: 1px solid #1da1f2;
+    height: 18px;
+    width: 18px;
+    border-radius: 25px;
+    background: #a1d0ff;
+    cursor: pointer;
+}
+
+.footer .icon-list i {
+    background-color: lightblue;
+    font-size: medium;
+    padding: 5px;
+    color: white;
+    border-radius: 50px;
+    margin: 5px;
+}
+
+.footer .desc li {
+    color: black;
+    text-decoration: none;
+    list-style: none;
+}
+
+.footer .desc a {
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+}
+
+.footer .card {
+    border: none;
+    background-color: transparent;
+}
+
+.footer .icon-list i {
+    color: white;
+    padding: 10px;
+    background-color: darkblue;
+    font-size: small;
+}
